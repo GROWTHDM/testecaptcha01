@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MW997RG');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Crash - Acesso Liberado!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+
+    <section class="w-full lg:h-screen bg-[url('images/background.jpg')] bg-cover">
+
+        <section class="lg:w-1/2 w-full h-screen flex items-center text-center mx-auto relative">
+
+            <div class="w-full text-center">
+                <p class="font-semibold text-lg text-white leading-none uppercase py-5 text-center">
+                    Você e algumas pessoas foram selecionadas para participar deste programa!
+                </p>
+                <img src="images/logo.png" class="mx-auto" alt="">
+                <h1 class="font-bold lg:text-5xl text-4xl text-white uppercase leading-none drop-shadow-[0_0_5px_rgba(0,0,0,1)] my-5 px-10">
+                    <span class="text-green-500">PARABÉNS!</span> <br> SEU ACESSO FOI <span class="text-green-500">LIBERADO</span>
+                </h1>
+                <button class="w-[80%] bg-green-600 font-bold text-xl text-white uppercase py-5 px-10 rounded-lg animate__animated animate__infinite animate__pulse" onclick="redirectGrupo()">
+                    CLIQUE AQUI E ENTRE NO NOSSO GRUPO DO WHATSAPP!
+                </button>
+                <p class="text-white font-semibold my-5">Restam apenas <span class="text-red-500">6</span> vagas, clique no botão acima AGORA!</p>
+            </div>
+
+        </section>
+
+    </section>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1031392397843927');
+        fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+
+    <script>
+        function redirectGrupo() {
+            fbq('track', 'InitiateCheckout');
+            window.open("https://www.redirectmais.com/run/docecomunidade", "_blank");
+        }
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW997RG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>
